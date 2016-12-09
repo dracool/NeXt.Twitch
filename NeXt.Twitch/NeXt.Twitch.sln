@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeXt.Twitch.API", "NeXt.Twitch.API\NeXt.Twitch.API.csproj", "{EC7C88C9-AA65-45DB-A517-D3354EC1EE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeXt.Twitch.Chat", "NeXt.Twitch.Chat\NeXt.Twitch.Chat.csproj", "{086C246D-D338-4A89-9C0F-FF8703965CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next.Twitch.Common", "Next.Twitch.Common\Next.Twitch.Common.csproj", "{E14BFA8F-2D75-4950-873A-C7AB0F5A1399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeXt.Twitch.PubSub", "NeXt.Twitch.PubSub\NeXt.Twitch.PubSub.csproj", "{7B2E2118-611C-4905-BC1E-30A2F86B68B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7C88C9-AA65-45DB-A517-D3354EC1EE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7C88C9-AA65-45DB-A517-D3354EC1EE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7C88C9-AA65-45DB-A517-D3354EC1EE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7C88C9-AA65-45DB-A517-D3354EC1EE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086C246D-D338-4A89-9C0F-FF8703965CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086C246D-D338-4A89-9C0F-FF8703965CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086C246D-D338-4A89-9C0F-FF8703965CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086C246D-D338-4A89-9C0F-FF8703965CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14BFA8F-2D75-4950-873A-C7AB0F5A1399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14BFA8F-2D75-4950-873A-C7AB0F5A1399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14BFA8F-2D75-4950-873A-C7AB0F5A1399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14BFA8F-2D75-4950-873A-C7AB0F5A1399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2E2118-611C-4905-BC1E-30A2F86B68B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2E2118-611C-4905-BC1E-30A2F86B68B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2E2118-611C-4905-BC1E-30A2F86B68B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2E2118-611C-4905-BC1E-30A2F86B68B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
