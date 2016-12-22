@@ -77,6 +77,13 @@
     <Compile Include="v3\TwitchApi.GetObjects.cs" />
     <Compile Include="v3\TwitchApi.Searching.cs" />
     <Compile Include="v3\TwitchApi.Users.cs" />
+    <Compile Include="v5\ApiCategory.cs" />
+    <Compile Include="v5\Data\AuthenticatedChannel.cs" />
+    <Compile Include="v5\Data\Channel.cs" />
+    <Compile Include="v5\ChannelApi.cs" />
+    <Compile Include="v5\Data\User.cs" />
+    <Compile Include="v5\IChannelApi.cs" />
+    <Compile Include="v5\TwitchApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="v3\packages.config" />
@@ -87,6 +94,7 @@
       <Name>Next.Twitch.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
