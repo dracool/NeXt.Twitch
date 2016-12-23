@@ -11,6 +11,7 @@ namespace NeXt.Twitch.API
     /// <summary>
     /// Classes to interact with the Twitch REST API
     /// </summary>
+    [Obsolete("Use API Version 5")]
     public partial class TwitchApi
     {
         private readonly JsonSerializer serializer;
